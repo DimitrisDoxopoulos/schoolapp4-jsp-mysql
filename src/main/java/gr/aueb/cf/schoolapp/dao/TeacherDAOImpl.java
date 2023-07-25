@@ -25,11 +25,12 @@ public class TeacherDAOImpl implements ITeacherDAO {
             ps.setString(1, firstname);
             ps.setString(2, lastname);
 
-            int n = ps.executeUpdate();
+//            int n =
+            ps.executeUpdate();
 
            // if (n == 1) {
               //  JOptionPane.showMessageDialog(null,  n + " row affected", "Insert", JOptionPane.INFORMATION_MESSAGE);
-                System.out.println("DAO returned teacher" + teacher.getLastname());
+//                System.out.println("DAO returned teacher" + teacher.getLastname());
                 return teacher;
            // }
             //else return null;
@@ -53,7 +54,8 @@ public class TeacherDAOImpl implements ITeacherDAO {
             ps.setString(2, lastname);
             ps.setInt(3, id);
 
-            int n = ps.executeUpdate();
+//            int n =
+            ps.executeUpdate();
          //   if (n == 1) {
             //    JOptionPane.showMessageDialog(null,  n + " row affected", "Update", JOptionPane.INFORMATION_MESSAGE);
                 return teacher;
